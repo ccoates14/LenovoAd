@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.5%;
+}
+
+.nav img{
+    width: 100px;
+    height: 55px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.nav-link{
+    width: 30%;
+    margin-right: 10%;
+    display: flex;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    bottom: 0;
+    margin: auto;
+} 
+
+.nav-link svg{
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-link svg{
+        width: unset;
+        height: unset;
+        display: inherit;
+    }
+}
