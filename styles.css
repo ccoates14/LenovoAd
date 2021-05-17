@@ -95,6 +95,24 @@
   cursor: pointer;
 }
 
+.article{
+  flex-wrap: wrap;
+  font-size: larger;
+  font-family: monospace;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+.article-img{
+  float: left;
+  margin: 5% 5% 5% 5%;
+  max-width: 70%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 @media screen and (max-width: 980px) {
  
   .menu-button{
@@ -116,6 +134,14 @@
     .product-info-side-bar{
       display: none;
     
+    }
+
+    .article-img{
+      float: unset;
+      min-width: 100%;
+      margin: unset;
+      margin-top: 5%;
+      margin-bottom: 5%;
     }
     
 }
